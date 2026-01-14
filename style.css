@@ -1,0 +1,10 @@
+/* Basic starter CSS for the personal site */
+:root{--bg:#fafafa;--fg:#222;--accent:#0066cc}
+html,body{height:100%;margin:0;font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:var(--fg);background:var(--bg)}
+.site-header{display:flex;align-items:center;gap:1rem;padding:1rem;border-bottom:1px solid #e6e6e6}
+.avatar{width:80px;height:80px;object-fit:cover;border-radius:999px}
+.main-nav a{margin-right:1rem;color:var(--accent);text-decoration:none}
+main{padding:1rem;max-width:900px;margin:0 auto}
+footer{padding:1rem;text-align:center;color:#666;font-size:0.9rem;border-top:1px solid #eee;margin-top:2rem}
+.summary h2{margin-top:0}
+.board img{max-width:100%;height:auto}
